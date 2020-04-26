@@ -77,6 +77,7 @@ class SinglyLinkedList {
       selectedNode.val = val;
       return selectedNode;
     }
+
     return false;
   }
   insert(index, val) {
